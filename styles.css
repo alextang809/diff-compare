@@ -9,7 +9,7 @@ body {
 
 textarea {
     width: 45%;
-    height: 200px;
+    height: 400px; /* Increased height */
     margin: 1em;
     padding: 1em;
 }
@@ -21,4 +21,9 @@ button {
     background-color: lightblue;
     border: none;
     font-size: 1em;
+    transition: transform 0.3s ease;
+}
+
+button:active {
+    transform: scale(0.9);
 }
