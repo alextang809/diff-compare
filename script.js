@@ -1,3 +1,5 @@
+console.log('Script is running');
+
 window.onload = function() {
     document.getElementById('compare').addEventListener('click', function() {
         const text1 = document.getElementById('text1');
