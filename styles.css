@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    width: 45%;
+    height: 200px;
+    margin: 1em;
+    padding: 1em;
+}
+
+button {
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: lightblue;
+    border: none;
+    font-size: 1em;
+}
